@@ -1,0 +1,104 @@
+/* TwitterHomepage.css */
+
+.twitter-homepage {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Adjust the max-width according to your preference */
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1da1f2;
+  }
+  
+  .search-bar {
+    margin: 10px 0;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .user-profile img {
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  main {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .tweet-input {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tweet-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+  }
+  
+  .tweet-input button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #1da1f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .timeline {
+    /* Style the timeline container */
+  }
+  
+  .tweet {
+    /* Style individual tweets */
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tweet img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .tweet span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
